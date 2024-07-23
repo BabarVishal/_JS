@@ -19,12 +19,36 @@ if(true){
 
 console.log(age);
 
-// let and const 
+// let and const  ==> local
 
 if(true){
   let ager = 22;
   console.log(ager);
 }
+
+//Data Type
+//Number 
+let num = 3;
+let numTwo = 3.24; // but its Conveted in number;
+
+//String 
+const name = "Vishal";
+console.log(name + " ");
+
+//Booleans
+let isLoggedIn = false; // true or null or no and yes;
+
+//objects 
+const person = {
+  fistName: "Vishal",
+  lastName: "Babar",
+  age: 22
+}
+
+
+
+
+
 
 
 
