@@ -3,7 +3,7 @@ let b = 22;
 let result = a + b;
 
 //sync!   on the spot aveleble.
-//asyne      thst are return  the Promises. Becose that result tece time
+//asyne      that are return  the Promises. Becouse that result teke time
 
 async function getData(){
     let resultPromissFromServer = await fetch("https://github.com/BabarVishal/DBconectionInBackend");
