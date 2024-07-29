@@ -1,0 +1,1 @@
+const result = Add((2)(4)(5));
