@@ -1,1 +1,3 @@
-const result = Add((2)(4)(5));
+const counter = makeCount()
+counter();
+counter();

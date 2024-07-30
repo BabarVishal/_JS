@@ -2,8 +2,8 @@ let a = 33;
 let b = 22;
 let result = a + b;
 
-//sync!   on the spot aveleble.
-//asyne      that are return  the Promises. Becouse that result teke time
+//sync!   on the spot aveleble.  Its a Bocking req.
+//asyne      that are return  the Promises. Becouse that result teke time! its non-Blocking req.
 
 async function getData(){
     let resultPromissFromServer = await fetch("https://github.com/BabarVishal/DBconectionInBackend");

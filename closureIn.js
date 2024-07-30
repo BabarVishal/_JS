@@ -17,15 +17,15 @@ init();
 //Q2............................
 function name(name){
 
-    function Fullname(){
-      console.log(name);
+    function Fullname(fistName){
+      console.log(name + fistName);
     }
     return Fullname;
 
 }
 
 const fn = name("Babar");
-fn();
+fn("Vishal");
 
 //Q3.................
 function count(num){
@@ -38,6 +38,7 @@ function count(num){
 
  const add1 = count(5);
  add1(5);
+
 
 //Q4.............................
  function makeCount(){
