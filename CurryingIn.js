@@ -1,8 +1,8 @@
-function add(a, b, c){
-    return a + b + c;
+function add(a, b, c, d){
+    return a + b + c + d;
 }
 
-const addNum = add(2,4,5);
+const addNum = add(2,4,5,5);
 console.log(addNum);
 
 //..................................

@@ -54,3 +54,5 @@ function count(num){
 const counter = makeCount()
 counter();
 counter();
+
+
